@@ -691,8 +691,12 @@ body {
   outline: none;
   border-color: #4d5ae5;
 }
+
+.review-form-checkbox-wrapper {
+  margin-bottom: 24px;
+}
 .review-form-custom-checkbox {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
@@ -701,12 +705,31 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .review-form-checkbox:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
   background-color: #404bbf;
   border: 1px solid #404bbf;
   fill: #f4f4fd;
+}
+
+.review-form-checkbox:focus + .review-form-checkbox-label > .review-form-custom-checkbox {
+  border-color: #404bbf;
+}
+
+.review-form-checkbox-label {
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.review-form-policy-link {
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
 
 /*==============/MODAL WINDOW STYLES=============*/
