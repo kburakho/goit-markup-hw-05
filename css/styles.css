@@ -561,8 +561,8 @@ body {
   margin-left: auto;
 }
 
-.page-footer-subscribe-menu {
-  display: flex;
+.page-footer-subscribe-form {
+  display: inline-flex;
 }
 
 .page-footer-subscribe-title {
