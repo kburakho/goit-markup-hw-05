@@ -582,6 +582,7 @@ body {
   color: #fff;
   max-width: 264;
   min-height: 40px;
+  outline: none;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
@@ -594,7 +595,7 @@ body {
 
 .page-footer-subscribe-form-input:hover,
 .page-footer-subscribe-form-input:focus {
-  border-color: #4d5ae5;
+  border: 1px solid #4d5ae5;
 }
 
 .page-footer-subscribe-form-input::placeholder {
