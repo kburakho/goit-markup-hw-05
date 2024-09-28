@@ -664,7 +664,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 24px 24px;
+  padding: 72px 24px 24px;
   width: 408px;
   min-height: 584px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -823,9 +823,6 @@ body {
   background-color: #404bbf;
   border: 1px solid #404bbf;
   fill: #f4f4fd;
-}
-
-.review-form-custom-checkbox:checked {
   border: none;
 }
 
